@@ -9,9 +9,9 @@ const Header = () => {
       <div className="container-max section-padding">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <h1 className="text-xl font-bold text-gray-900">
+            <div className="text-xl font-bold text-gray-900">
               印尼支付系统
-            </h1>
+            </div>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">

@@ -6,24 +6,21 @@ const Hero = () => {
       <div className="container-max section-padding">
         <div className="text-center">
           <div className="animate-fade-in">
-            {/* 核心业务引导 */}
+            {/* 相关服务入口 */}
             <div className="mb-8">
-              <div className="inline-flex items-center bg-gradient-to-r from-green-100 to-emerald-100 text-green-800 px-6 py-3 rounded-full text-sm font-medium mb-4 border border-green-200">
-                <span className="w-2 h-2 bg-green-500 rounded-full mr-3 animate-pulse"></span>
-                专业游戏支付通道服务商 · 业务扩展至支付系统搭建
+              <div className="inline-flex items-center bg-gradient-to-r from-blue-100 to-indigo-100 text-blue-800 px-6 py-3 rounded-full text-sm font-medium mb-4 border border-blue-200">
+                <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 animate-pulse"></span>
+                专业印尼支付解决方案提供商
               </div>
               <a 
                 href="https://indonesiapayments.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 mb-6"
+                className="inline-flex items-center bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-6 py-3 rounded-lg font-medium text-sm transition-all duration-300 shadow-md hover:shadow-lg mb-6"
               >
-                🎮 访问我们的核心业务：印尼支付通道
-                <ExternalLink size={18} className="ml-2" />
+                印尼支付通道服务
+                <ExternalLink size={16} className="ml-2" />
               </a>
-              <p className="text-gray-500 text-sm max-w-2xl mx-auto">
-                为游戏平台提供专业收款解决方案，现扩展业务至完整支付系统搭建服务
-              </p>
             </div>
 
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
